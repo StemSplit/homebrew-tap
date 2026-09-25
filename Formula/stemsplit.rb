@@ -1,9 +1,8 @@
 class Stemsplit < Formula
-  desc "AI-powered audio stem separation from the command line"
+  desc "AI-powered audio stem separation from the command-line"
   homepage "https://stemsplit.io"
   url "https://github.com/StemSplit/stemsplit-cli/archive/refs/tags/v0.1.0.tar.gz"
-  # sha256 will be populated automatically by `brew bump-formula-pr` after the first release
-  # sha256 "placeholder - update after tagging v0.1.0"
+  sha256 "bab1a0c413a663a81ecdeaf033c9bb57477d5767f8325264a2f70de6048a9751"
   license "MIT"
   head "https://github.com/StemSplit/stemsplit-cli.git", branch: "main"
 
